@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
 
 import {IGenre, IMovie} from "../../interfaces";
-import {DataService} from "../../services";
+import {DataService} from "../../servies";
 
 @Component({
   selector: 'app-movie-details',
