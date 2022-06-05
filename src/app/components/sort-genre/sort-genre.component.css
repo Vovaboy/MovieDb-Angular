@@ -1,0 +1,52 @@
+.container{
+  display: flex;
+}
+.cards{
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-columns: repeat(5, 252px);
+  grid-template-rows: repeat(4, 1fr);
+  margin: 20px auto;
+}
+.card{
+  display: flex;
+  justify-content: center;
+}
+.txt {
+  width: 200px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.txt2 {
+  color: grey;
+  font-size: 16px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.genre {
+  color: grey;
+}
+button{
+  border: none;
+  background: white;
+  text-align: start;
+  padding: 0;
+  cursor: pointer;
+}
+.plagiarism{
+  grid-column: 3;
+}
+.title{
+  text-align: center;
+  margin-top: 20px;
+}
+.title span{
+  opacity: 0.5;
+}

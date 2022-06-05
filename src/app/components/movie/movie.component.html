@@ -1,0 +1,6 @@
+<a routerLink="/movie-details" [state]="{data:movie}">
+  <app-poster-preview [poster]="movie.poster_path"></app-poster-preview>
+  <div class="txt">Name: {{movie.title}}</div>
+  <div class="txt2">Rating: {{movie.vote_average}}</div>
+</a>
+<div class="genre" *ngIf="genre">Genre: {{genre.name}}</div>

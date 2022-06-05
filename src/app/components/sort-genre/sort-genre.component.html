@@ -1,0 +1,16 @@
+<div class="container">
+  <app-genres></app-genres>
+  <div>
+    <h2 class="title" *ngIf="genre"><span>Genre:</span> {{genre.name}}</h2>
+    <div class="cards">
+      <div class="card" *ngFor="let movie of movies">
+        <a routerLink="/movie-details" [state]="{data:movie}">
+          <app-poster-preview [poster]="movie.poster_path"></app-poster-preview>
+          <div class="txt">Name: {{movie.title}}</div>
+          <div class="txt2">Rating: {{movie.vote_average}}</div>
+        </a>
+      </div>
+      <app-plagiarism class="plagiarism"></app-plagiarism>
+    </div>
+  </div>
+</div>

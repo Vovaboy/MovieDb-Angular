@@ -1,0 +1,5 @@
+<div class="container">
+  <div class="genre" *ngFor="let genre of genres">
+    <button (click)="sortGenre(genre)" class="btn">{{genre.name}}</button>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+}
+
+.movie {
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.movie a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.poster {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  margin-top: 15px;
+  opacity: 0.6;
+}

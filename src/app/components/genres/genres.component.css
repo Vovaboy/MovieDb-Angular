@@ -1,0 +1,21 @@
+.container{
+  padding: 20px 20px 0 20px;
+  width: 150px;
+  background: black;
+  color: snow;
+  height: 100%;
+}
+.genre{
+  padding: 5px 0;
+}
+.btn{
+  background: black;
+  color: snow;
+  font-size: 18px;
+  cursor:pointer;
+  border: none;
+}
+.btn:hover{
+  color: red;
+  transition: 0.8s;
+}
